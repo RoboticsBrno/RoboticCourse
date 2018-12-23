@@ -1,0 +1,14 @@
+První program pomocí Arduino Framework
+======================================
+
+Úroveň znalostí:
+- začátečníci
+
+Prerekvizity:
+- Arduino nebo ESP
+- LED s odporem na pinheadech nebo LED na DPS
+- nainstalované PlatformIO (nebo Arduino IDE)
+
+Požadavky na účastníky:
+- nutné znalosti: žádné
+- vhodné znalosti: zapojení LED, rezistoru, jak se chová pin na mikročipu, ohmův zákon
