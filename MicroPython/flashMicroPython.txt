@@ -1,0 +1,2 @@
+python ./esp-idf/components/esptool_py/esptool/esptool.py --port COM22 erase_flash
+python ./esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 --port COM22 write_flash -z 0x1000 esp32-MicroPython.bin
