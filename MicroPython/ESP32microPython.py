@@ -1,3 +1,6 @@
+# Dokumentace k tomuto tématu podrobně v angličtině dostupná na:
+# https://docs.micropython.org/en/latest/esp32/quickref.html
+
 # MicroPython na ESP32 běží jako aplikace napsaná v jazyce C++, kterou si na Robotárně upravujeme podle vlastních potřeb. Po připojení ESP32 k počítači přes USB se automaticky spustí interpret jazyka Python. Příkazy a programy napsané v jazyce Python se do čipu ESP32 nahrávají pomocí sériové linky řpipojené právě USB kabelem k počítači. Nyní si vyzkoušíme posílání příkazů v jazyce Python do ESP32 a později si zkusíme čip ESP32 naprogramovat přímo v jazyce C++. Nyní si vyzkoušíme interaktivní posílání příkazů v jazyce Python:
 
 # Příkaz help() vám zobrazí nápovědu v angličtině, doporučuji přečíst
