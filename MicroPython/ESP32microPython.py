@@ -74,6 +74,14 @@ alks.RGBb.duty(128)
 
 # Příklad: Vytvořte program, který zajistí postupné stmívání a rozsvěcování nějaké barvy na RGB LED.
 
+# WiFi: ALKS obsahuje i WiFi modul, který můžete nastavit jako stanici nebo jako AccessPoint. Informace k tomu, jak WiFi používat si zkuste najít sami pomocí strýčka Google. Zde vám přidám jen malou nápovědu:
+import network
+wlan = network.WLAN(network.AP_IF)
+wlan.active(True)
+wlan.config("JmenoWiFi","heslo")
+wlan.ifconfig()
+... :)
+
 
 ## Pokročilé:
 
